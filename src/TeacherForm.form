@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TeacherForm">
+  <grid id="27dc6" binding="teacherPanel" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="24" width="507" height="396"/>
+    </constraints>
+    <properties>
+      <background color="-9660470"/>
+      <enabled value="true"/>
+      <foreground color="-9660470"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3b3a5" class="javax.swing.JButton" binding="btnGradeStudent">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Noteaza student"/>
+        </properties>
+      </component>
+      <component id="a291c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="IconLogin1/IconTeacher.png"/>
+          <text value="Hello Teacher!"/>
+        </properties>
+      </component>
+      <component id="66c60" class="javax.swing.JButton" binding="btnListStudentsOfCourses">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Studentii de la curs"/>
+        </properties>
+      </component>
+      <component id="74d28" class="javax.swing.JButton" binding="btnListCourses">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <hideActionText value="false"/>
+          <text value="Listeaza cursuri"/>
+        </properties>
+      </component>
+      <component id="a8392" class="javax.swing.JLabel" binding="lblStudentName">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Numele studentului:"/>
+        </properties>
+      </component>
+      <component id="f7189" class="javax.swing.JTextField" binding="txtStudentName">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bb691" class="javax.swing.JTextField" binding="txtStudentGrade">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fdcd0" class="javax.swing.JLabel" binding="lblStudentGrade">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nota:"/>
+        </properties>
+      </component>
+      <component id="8d80d" class="javax.swing.JButton" binding="btnGrade">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Noteaza!"/>
+        </properties>
+      </component>
+      <component id="9302c" class="javax.swing.JButton" binding="btnBack">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="IconLogin1/btnBack.png"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

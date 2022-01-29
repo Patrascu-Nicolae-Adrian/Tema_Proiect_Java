@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="User" id="User0">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User0"/>
+      <string>Milea Daniel</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User0"/>
+      <string>Milea</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User0"/>
+      <object class="StudentStrategy" id="StudentStrategy0">
+       <void class="StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy0"/>
+         <object class="Student" id="Student0">
+          <void class="Student" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Student0"/>
+            <string>Milea</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Student0"/>
+            <string>Daniel</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>grupa</string>
+           <void method="set">
+            <object idref="Student0"/>
+            <int>3</int>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>an</string>
+           <void method="set">
+            <object idref="Student0"/>
+            <int>2</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User" id="User1">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User1"/>
+      <string>Coca Paul</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User1"/>
+      <string>Coca</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User1"/>
+      <object class="StudentStrategy" id="StudentStrategy1">
+       <void class="StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy1"/>
+         <object class="Student" id="Student1">
+          <void class="Student" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Student1"/>
+            <string>Coca</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Student1"/>
+            <string>Paul</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>grupa</string>
+           <void method="set">
+            <object idref="Student1"/>
+            <int>1</int>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>an</string>
+           <void method="set">
+            <object idref="Student1"/>
+            <int>1</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User" id="User2">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User2"/>
+      <string>Visoiu Andrei</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User2"/>
+      <string>Visoiu</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User2"/>
+      <object class="StudentStrategy" id="StudentStrategy2">
+       <void class="StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy2"/>
+         <object class="Student" id="Student2">
+          <void class="Student" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Student2"/>
+            <string>Visoiu</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Student2"/>
+            <string>Andrei</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>grupa</string>
+           <void method="set">
+            <object idref="Student2"/>
+            <int>2</int>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>an</string>
+           <void method="set">
+            <object idref="Student2"/>
+            <int>1</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User" id="User3">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User3"/>
+      <string>KRISTALY DOMINIC</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User3"/>
+      <string>KRISTALY</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User3"/>
+      <object class="TeacherStrategy" id="TeacherStrategy0">
+       <void class="TeacherStrategy" method="getField">
+        <string>profesor</string>
+        <void method="set">
+         <object idref="TeacherStrategy0"/>
+         <object class="Profesor" id="Profesor0">
+          <void class="Profesor" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Profesor0"/>
+            <string>KRISTALY</string>
+           </void>
+          </void>
+          <void class="Profesor" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Profesor0"/>
+            <string>DOMINIC</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User" id="User5">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User5"/>
+      <string>Patrascu Nicolae</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User5"/>
+      <string>Patrascu</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User5"/>
+      <object class="StudentStrategy" id="StudentStrategy3">
+       <void class="StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy3"/>
+         <object class="Student" id="Student3">
+          <void class="Student" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Student3"/>
+            <string>Patrascu</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Student3"/>
+            <string>Nicolae</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>grupa</string>
+           <void method="set">
+            <object idref="Student3"/>
+            <int>2</int>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>an</string>
+           <void method="set">
+            <object idref="Student3"/>
+            <int>2</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User" id="User6">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User6"/>
+      <string>Trifan Ioan</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User6"/>
+      <string>Trifan</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User6"/>
+      <object class="StudentStrategy" id="StudentStrategy4">
+       <void class="StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy4"/>
+         <object class="Student" id="Student4">
+          <void class="Student" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Student4"/>
+            <string>Trifan</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Student4"/>
+            <string>Ioan</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>grupa</string>
+           <void method="set">
+            <object idref="Student4"/>
+            <int>2</int>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>an</string>
+           <void method="set">
+            <object idref="Student4"/>
+            <int>2</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User" id="User7">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User7"/>
+      <string>DEMETER ROBERT</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User7"/>
+      <string>DEMETER</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User7"/>
+      <object class="TeacherStrategy" id="TeacherStrategy2">
+       <void class="TeacherStrategy" method="getField">
+        <string>profesor</string>
+        <void method="set">
+         <object idref="TeacherStrategy2"/>
+         <object class="Profesor" id="Profesor2">
+          <void class="Profesor" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Profesor2"/>
+            <string>DEMETER</string>
+           </void>
+          </void>
+          <void class="Profesor" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Profesor2"/>
+            <string>ROBERT</string>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User" id="User8">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User8"/>
+      <string>Istudor Cristian</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User8"/>
+      <string>Istudor</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User8"/>
+      <object class="StudentStrategy" id="StudentStrategy5">
+       <void class="StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy5"/>
+         <object class="Student" id="Student5">
+          <void class="Student" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Student5"/>
+            <string>Istudor</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Student5"/>
+            <string>Cristian</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>grupa</string>
+           <void method="set">
+            <object idref="Student5"/>
+            <int>2</int>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>an</string>
+           <void method="set">
+            <object idref="Student5"/>
+            <int>2</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User" id="User9">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User9"/>
+      <string>Oprea Ionut</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User9"/>
+      <string>Oprea</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User9"/>
+      <object class="StudentStrategy" id="StudentStrategy6">
+       <void class="StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy6"/>
+         <object class="Student" id="Student6">
+          <void class="Student" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Student6"/>
+            <string>Oprea</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Student6"/>
+            <string>Ionut</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>grupa</string>
+           <void method="set">
+            <object idref="Student6"/>
+            <int>3</int>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>an</string>
+           <void method="set">
+            <object idref="Student6"/>
+            <int>2</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User" id="User10">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User10"/>
+      <string>Damian Maria</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User10"/>
+      <string>Damian</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User10"/>
+      <object class="StudentStrategy" id="StudentStrategy7">
+       <void class="StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy7"/>
+         <object class="Student" id="Student7">
+          <void class="Student" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Student7"/>
+            <string>Damian</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Student7"/>
+            <string>Maria</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>grupa</string>
+           <void method="set">
+            <object idref="Student7"/>
+            <int>1</int>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>an</string>
+           <void method="set">
+            <object idref="Student7"/>
+            <int>4</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="User" id="User11">
+    <void class="User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User11"/>
+      <string>Stanculescu Daniel</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User11"/>
+      <string>Stanculescu</string>
+     </void>
+    </void>
+    <void class="User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User11"/>
+      <object class="StudentStrategy" id="StudentStrategy8">
+       <void class="StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy8"/>
+         <object class="Student" id="Student8">
+          <void class="Student" method="getField">
+           <string>nume</string>
+           <void method="set">
+            <object idref="Student8"/>
+            <string>Stanculescu</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>prenume</string>
+           <void method="set">
+            <object idref="Student8"/>
+            <string>Daniel</string>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>grupa</string>
+           <void method="set">
+            <object idref="Student8"/>
+            <int>2</int>
+           </void>
+          </void>
+          <void class="Student" method="getField">
+           <string>an</string>
+           <void method="set">
+            <object idref="Student8"/>
+            <int>3</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
